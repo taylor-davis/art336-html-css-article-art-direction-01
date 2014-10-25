@@ -14,3 +14,44 @@ Globals
     font-size: $size;
     font-size: calculateRem($size);
 }
+
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Glegoo'), local('Glegoo-Regular'), url(http://fonts.gstatic.com/s/glegoo/v5/HlaektNAGXsvMSzJmADIXOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Glegoo Bold'), local('Glegoo-Bold'), url(http://fonts.gstatic.com/s/glegoo/v5/yG77c-qahUY-abN0x5R7EbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url(http://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@mixin body-font-regular {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+    
+}
+
+@mixin body-font-bold {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin headline-font {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+}
+
+    
+    
